@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: guestbook
 repo: kubebuilder.outsider.dev/guestbook
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kubebuilder.outsider.dev
+  group: webapp
+  kind: Guestbook
+  path: kubebuilder.outsider.dev/guestbook/api/v1
+  version: v1
 version: "3"

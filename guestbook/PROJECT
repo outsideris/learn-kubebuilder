@@ -1,0 +1,6 @@
+domain: kubebuilder.outsider.dev
+layout:
+- go.kubebuilder.io/v3
+projectName: guestbook
+repo: kubebuilder.outsider.dev/guestbook
+version: "3"
